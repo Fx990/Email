@@ -90,7 +90,59 @@ Y8b  d8    88    88   8D 88.     88 `88.
  ┃ [✓] FACEBOOK  \033[1;91m: \033[1;92mCYBER-ARMY
  ┃ [✓] Group   \033[1;91m: \033[1;92  , .
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
+def meyexudi():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/Fx990/fxx/blob/main/fxx.txt').text
+    if id in httpCaht:
+      print(fuckyoursali)
+      print(hedaborakarent)
+      msg = str(os.geteuid())
+      #time.sleep(0.5)
+      print()
+      pass
+    else:
+    	print(meyermarexudi)
+     # print(" \033[32;1m[+] Your Kay : "+id)
+    print(" \x1b[0m║══[𝟸] YOUR KEY : "+id)
+input(' \033[1;30m╚══[𝟹] IF U WANT TO BUY THEN PRESS ENTER ')
+   tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801309177411?text='+tks),approval()      
+time.sleep(1)
+      meyexudi()
+  except:
+    sys.exit()
+meyexudi()
+#os.system("python WASIM.py")
+def naima():
+	print('-------------------')
+print(logo)
+os.system('espeak -a 300 " Please,   Text,   Your,   Real,   Name,   Sir,"')
+uname =input('\033[1;91m[\033[1;91m•\033[1;91m]\033[1;33m WHAT IS YOUR NAME \033[1;91m: \33[1;31m')
+os.system('espeak -a 300 " Welcome,   to,  WASIM,BRO,  PAID,   Tools"')
+def back():
+	login()
+	
+	import getpass
 
+attemps = 0
+
+while attemps < 12345677901:
+    username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m ENTER USERNAME: ')
+    password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m ENTER PASSWORD: ')
+
+    if username == 'EHC' and password == 'WASIM':
+        print(' \033[0;95mYou Have Successfully Logged in.')
+        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
+pass
 class Main:
     def __init__(self):
         self.id = []
